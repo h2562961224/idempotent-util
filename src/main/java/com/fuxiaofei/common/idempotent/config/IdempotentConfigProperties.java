@@ -10,7 +10,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 @ConfigurationProperties(prefix = IdempotentConfigProperties.IDEMPOTENT_PREFIX)
 public class IdempotentConfigProperties {
-    public static final String IDEMPOTENT_PREFIX = "terminus.idempotent";
+    public static final String IDEMPOTENT_PREFIX = "idempotent";
 
     private String cacheType;
     private Long expireMilliSecond;
