@@ -15,7 +15,7 @@ DoingExecutor 方法调用中时再次发起调用触发的executor，可处理�
 
 
 
-###代码demo
+### 代码demo
 ```java
 //使用幂等工具
 @EnableUseIdempotent
